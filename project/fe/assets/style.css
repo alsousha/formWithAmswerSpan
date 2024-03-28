@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	/* font-size: 22px; */
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 2rem;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+div {
+	margin-bottom: 1rem;
+}
+
+form {
+	border: 1px solid;
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+.form_post>div {
+	width: 40%;
+
+}
+
+.btns {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.msg .error {
+	color: red;
+}
+
+.msg .success {
+	color: green;
+}
